@@ -1,0 +1,16 @@
+@import "css/index.css";
+@import"css/father_son.css";
+@import"css/exploration.css";
+body {
+  background:url("imges/God_of_War_Back.webp")no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}

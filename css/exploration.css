@@ -1,0 +1,32 @@
+.imgSet
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.imgSet__img
+{
+    width: 50%;
+    height: auto;
+    flex: 1 1 40%;
+    box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.7);
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    animation:up-down 2s ease;
+}
+.exp__article__img
+{
+    margin: 50px;
+}
+.exp__article__h2
+{
+    font-size: 50px;
+}
+@keyframes up-down{
+    0%{
+        transform: translateY(-30%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
